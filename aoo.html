@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Forecast App</title>
+  <link rel="stylesheet" href="aoo.css" />
+</head>
+<body>
+  <!-- Background Animations -->
+  <div class="weather-bg" id="weatherBg">
+    <div class="sun"></div>
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="rain"></div>
+  </div>
+
+  <div class="container">
+    <h1>🌤 Weather Forecast</h1>
+
+    <div class="search-bar">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <p id="location"></p>
+
+    <div class="current-weather" id="currentWeather"></div>
+
+    <h1 style="color:brown">Weekly Forecast</h1>
+    <div class="weather-grid" id="weatherGrid"></div>
+  </div>
+
+  <div id="loader" class="loader">Loading...</div>
+
+  <script src="aoo.js"></script>
+</body>
+</html>
